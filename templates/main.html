@@ -153,21 +153,15 @@
   % if not suppress_toplevel_navigation:
     <%include file="${header_file}" />
   %endif
-  <div>MAIN MIGUEL 111</div>
     <div class="content-wrapper" id="content">
       ${self.body()}
       <%block name="bodyextra"/>
     </div>
-  <div>MAIN MIGUEL 222</div>
   % if not suppress_toplevel_navigation:
     <%include file="${footer_file}" />
   % endif
 
   </div>
-
-  <div>MAIN MIGUEL 333</div>
-
-  
 
   <script>window.baseUrl = "${settings.STATIC_URL}";</script>
   % if not disable_courseware_js:
