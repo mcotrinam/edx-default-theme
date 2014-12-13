@@ -185,7 +185,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-//$homepage-bg-image: url('../static/themes/campus/images/sunrise.jpg');
+$homepage-bg-image: url('../static/themes/campus/images/studying.jpg');
 
 //$login-banner-image: none;
 //$register-banner-image: none;
@@ -209,7 +209,7 @@ $footer_margin: ($baseline/4) 0;
 
 
 /// -------------- MIGUEL -----------
-@mixin header {
+header {
 	background-color: #ffffff;
 }
 
@@ -219,4 +219,8 @@ $footer_margin: ($baseline/4) 0;
 
 .wrapper-footer {
 	background: #ffffff;
+}
+
+.outer-wrapper{
+	font-size: 14px;
 }
